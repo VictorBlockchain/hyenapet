@@ -41,6 +41,7 @@
 	},
 	"devDependencies": {
 		"@types/jquery": "^3.5.30",
+		"@types/mongodb": "^4.0.7",
 		"@types/react-datepicker": "^7.0.0",
 		"@types/react-slick": "^0.23.13"
 	}
