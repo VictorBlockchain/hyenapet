@@ -15,7 +15,7 @@
 	  "jsx": "preserve",
 	  "incremental": true,
 	  "typeRoots": ["./node_modules/@types", "./types"],
-	  "types": ["mongoose", "mongodb"]
+	  "types": ["mongoose", "mongodb","jquery"]
 	},
 	"include": [
 	  "next-env.d.ts",
