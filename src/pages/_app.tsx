@@ -43,7 +43,8 @@ const wagmiConfig:any = defaultWagmiConfig({ chains, projectId, metadata });
 
 createWeb3Modal({ wagmiConfig, projectId, chains });
 
-export default function App({ Component, pageProps }: AppProps) {
+function MyApp({ Component, pageProps }: AppProps) {
+
 	const [ready, setReady] = useState(false);
 	
 	useEffect(() => {
@@ -76,3 +77,5 @@ export async function getServerSideProps() {
 	  props: {},
 	};
   }
+  export default MyApp
+
