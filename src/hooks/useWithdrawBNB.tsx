@@ -38,9 +38,9 @@ export function useWithdrawBNB(address:any, amount:any, petID:any, enabled:any) 
 
   return {
     withdrawB,
-    data: data,
-    isLoading: isLoading,
-    isSuccess: isSuccess,
-    error: error
+    dataB: data,
+    isLoadingB: isLoading,
+    isSuccessB: isSuccess,
+    errorB: error
   };
 }
