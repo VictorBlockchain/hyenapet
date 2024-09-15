@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Slider from "react-slick";
-import { ethers, parseUnits } from 'ethers'; // Proper import of ethers utilities
+// import { ethers, parseUnits } from 'ethers'; // Proper import of ethers utilities
 import { useAccount,useContractRead } from 'wagmi'
 import Modal from './Modal';
 import { useMintTo } from '../hooks/useMintTo';

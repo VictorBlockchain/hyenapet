@@ -1,12 +1,8 @@
 import React, { Component } from 'react'
-import Image from 'next/image'
 import Link from 'next/link'
-import styles from '@/styles/Home.module.css'
 import Modal from './Modal';
 import {useCallback, useEffect, useState} from 'react'
-import { Inter } from 'next/font/google'
 import { useRouter } from 'next/router'
-import axios from "axios";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { useAccount,useContractRead } from 'wagmi'
@@ -19,7 +15,6 @@ import { useWithdrawXFT } from '../hooks/useWithdrawXFT';
 import { useWithdrawToken } from '../hooks/useWithdrawToken'; 
 import { useWithdrawBNB } from '../hooks/useWithdrawBNB'; 
 import { useGetWalletLock} from '../hooks/useGetWalletLock'; 
-import { time } from 'console';
 import { useMintTo } from '../hooks/useMintTo';
 import { useMintPrice } from '../hooks/useMintPrice';
 import moment from 'moment';

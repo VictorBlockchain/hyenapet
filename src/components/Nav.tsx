@@ -2,9 +2,6 @@ import React, { Component } from 'react'
 import { useRouter } from 'next/router';
 import { useEffect,useState} from 'react'
 import { useAccount } from 'wagmi'
-import Image from "next/image";
-import styles from "@/styles/Home.module.css";
-import { PlugIcon } from './Icons';
 import Link from 'next/link'
 
 const CONTRACT_ADDRESS = '0xAF73c709e66fe339beE5608477F9e7A589acAEC5';

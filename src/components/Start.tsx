@@ -5,7 +5,6 @@ import Link from 'next/link';
 import { useState, useEffect } from 'react';
 // import styles from "@/styles/Home.module.css";
 import Carousel from './Slider';
-import { useWeb3Modal } from '@web3modal/wagmi/react'
 import { useAccount,useContractRead } from 'wagmi'
 import Modal from './Modal';
 import { useMyPets } from '../hooks/getPets';
