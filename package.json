@@ -40,6 +40,7 @@
 		"wagmi": "^1.4.13"
 	},
 	"devDependencies": {
-		"@types/jquery": "^3.5.30"
+		"@types/jquery": "^3.5.30",
+		"@types/react-datepicker": "^7.0.0"
 	}
 }

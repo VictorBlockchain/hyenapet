@@ -22,7 +22,8 @@
 	  "**/*.ts",
 	  "**/*.tsx",
 	  "pages/**/*",
-	  "components/Service.js"
+	  "components/Service.js",
+	  "types/**/*.d.ts"
 	],
 	"exclude": ["node_modules"]
   }
