@@ -349,8 +349,8 @@ function handleCloseWNFTModal() {
               <div className="text-center">
                 <h1 className="cs-page_title" style={{color:'white',fontFamily: 'Comfortaa'}}>Pet Details</h1>
                 <ol className="breadcrumb">
-                <li className="breadcrumb-item"  style={{color:'white',fontFamily: 'Comfortaa'}}><a href="/">Home</a></li>
-                <li className="breadcrumb-item" style={{color:'white',fontFamily: 'Comfortaa'}}><a href="#" onClick={handleOpenMintModal}>Mint More</a></li>
+                <li className="breadcrumb-item"  style={{color:'white',fontFamily: 'Comfortaa'}}><Link href="/">Home</Link></li>
+                <li className="breadcrumb-item" style={{color:'white',fontFamily: 'Comfortaa'}}><Link href="#" onClick={handleOpenMintModal}>Mint More</Link></li>
                 
                 </ol>
               </div>
@@ -703,7 +703,7 @@ function handleCloseWNFTModal() {
               </form>
             </div>            
             <div className="cs-height_20 cs-height_lg_20"></div>
-            <p className="text-center">You must own Pet to withdraw from it's wallet.<br/> If you have this nft wrapped on NFTea.app<br/> unwrap it 1st</p>
+            <p className="text-center">You must own Pet to withdraw from it&apos;s wallet.<br/> If you have this nft wrapped on NFTea.app<br/> unwrap it 1st</p>
             <div className="cs-height_25 cs-height_lg_25"></div>
             
             </Modal> } 
@@ -722,7 +722,7 @@ function handleCloseWNFTModal() {
               </form>            
             </div>            
             <div className="cs-height_20 cs-height_lg_20"></div>
-            <p className="text-center">You must own Pet to withdraw from it's wallet.<br/> If you have this nft wrapped on NFTea.app<br/> unwrap it 1st</p>
+            <p className="text-center">You must own Pet to withdraw from it&apos;s wallet.<br/> If you have this nft wrapped on NFTea.app<br/> unwrap it 1st</p>
             <div className="cs-height_25 cs-height_lg_25"></div>
             
             <button className="cs-btn cs-style1 cs-btn_lg w-100" onClick={handleWithdrawToken}><span>Withdraw</span></button>
@@ -743,7 +743,7 @@ function handleCloseWNFTModal() {
                 <input type="number" className="cs-form_field"  placeholder="amount" name="amount" />
             
             <div className="cs-height_20 cs-height_lg_20"></div>
-            <p className="text-center">You must own Pet to withdraw from it's wallet.<br/> If you have this nft wrapped on NFTea.app<br/> unwrap it 1st</p>
+            <p className="text-center">You must own Pet to withdraw from it&apos;s wallet.<br/> If you have this nft wrapped on NFTea.app<br/> unwrap it 1st</p>
             <div className="cs-height_25 cs-height_lg_25"></div>
             
             <button type="submit" className="cs-btn cs-style1 cs-btn_lg w-100" onClick={handleWithdrawNFT}><span>Withdraw</span></button>

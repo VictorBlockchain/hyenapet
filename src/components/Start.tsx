@@ -226,7 +226,7 @@ const Start = () => {
               <div className="text-center">
                 <h1 className="cs-page_title" style={{color:'white',fontFamily: 'Comfortaa'}}>My Pets</h1>
                 <ol className="breadcrumb">
-                <li className="breadcrumb-item"  style={{color:'white',fontFamily: 'Comfortaa'}}><a href="/">Home</a></li>
+                <li className="breadcrumb-item"  style={{color:'white',fontFamily: 'Comfortaa'}}><Link href="/">Home</Link></li>
                 <li className="breadcrumb-item active"  style={{color:'white',fontFamily: 'Comfortaa'}}>My Pets</li>
                 </ol>
               </div>
@@ -333,7 +333,7 @@ const Start = () => {
                     <h1 className="cs-hero_title cs-white_color" style={{fontFamily: 'Comfortaa'}}>Magical, Mythical, Battle-ready Hyenas As Pets</h1>
                     <div className="cs-hero_subtitle cs-medium cs-white_color" style={{fontFamily: 'Comfortaa'}}>The 1st xFt generative collection with assets as attributes. Each pet is attached to a smart contract to hold its token attributes and other value assets.</div>
                         <div className="cs-hero_btns">
-                        <a href="#" className="cs-hero_btn cs-style1 cs-color3" onClick={handleOpenSmartModal}><span>xFT's</span></a>
+                        <a href="#" className="cs-hero_btn cs-style1 cs-color3" onClick={handleOpenSmartModal}><span>xFT&apos;s</span></a>
                         <a href="#" className="cs-hero_btn cs-style1 cs-color1" onClick={handleOpenAAAModal}><span>AAA</span></a>
                         </div>
                     </div>
@@ -363,7 +363,7 @@ const Start = () => {
                         
                         After, as she roamed about.. she felt a rumble in her belly each time she looked at the other wild creatures and village scenery.
                         
-                        When she gave birth, the handlers noticed her pups weren't like other Hyena pups, instead they had the features of other animals and nature. <br/><br/>Some had wings, some eagle talons, some loin's mane and some had magical features such as unicorn horn, magical tail, firey hair, lightning eyes, special chest plate armor and more.
+                        When she gave birth, the handlers noticed her pups weren&apos;t like other Hyena pups, instead they had the features of other animals and nature. <br/><br/>Some had wings, some eagle talons, some loin&apos;s mane and some had magical features such as unicorn horn, magical tail, firey hair, lightning eyes, special chest plate armor and more.
                         
                         <br/><br/>Envious, another pregnant Hyena mom drank the magic potion and then she gave birth... to be cont...<br/><br/>
                         </div>
@@ -470,7 +470,7 @@ const Start = () => {
                 </div>
                 <div className="cs-height_30 cs-height_lg_30"></div>
                   <div style={{fontFamily: 'Comfortaa',color:'white'}}>
-                    <p>Run & Tell Your Friends! Share on social media! <br/><br/>You'll earn 20% of the mint fee for every friend you tell. Tell as many as you can!<br/></p>
+                    <p>Run & Tell Your Friends! Share on social media! <br/><br/>You&apos;ll earn 20% of the mint fee for every friend you tell. Tell as many as you can!<br/></p>
                     <p>friends added:</p>
                     <ul>
                       
@@ -515,13 +515,13 @@ const Start = () => {
               <div className="cs-single_post">
                 <p style={{color:'black'}}>An xFt is an NFT that has a vault. <br/><br/>
                     By linking your Pet to a vault, you allow your pet to store assets including other NFTs.<br/><br/>
-                    The owner of the pet is the only one who can access it's vault. <br/><br/>
+                    The owner of the pet is the only one who can access it&apos;s vault. <br/><br/>
                 </p>
-                <h4 className="text-center" style={{fontFamily: 'Comfortaa'}}>Beneftis of xFt's</h4>
+                <h4 className="text-center" style={{fontFamily: 'Comfortaa'}}>Beneftis of xFt&apos;s</h4>
                 <ul style={{color:'black'}}>
                   <li>Store wrapped BTC, wrapped ETH, BNB and other assets in your xFt to guarantee real value.</li>
-                  <li>Your xFt can never go to $0 since you can always add real value to its "vault".</li>
-                  <li>Lock assets in it's vault for a fixed period of time. (ie: 1 year or 2 months)</li>
+                  <li>Your xFt can never go to $0 since you can always add real value to its &apos;vault&apos;.</li>
+                  <li>Lock assets in it&apos;s vault for a fixed period of time. (ie: 1 year or 2 months)</li>
                   <li>Use your xFt as collateral for loans.</li>
                   <li>Easily transfer a basket of assets, with the transfer of your xFt.</li>
                   <li>Enhanced collector/buyer incentives.</li>
@@ -535,7 +535,7 @@ const Start = () => {
             <Modal onClose={handleCloseAAAModal} title="Assets As Attributes?">
                           <div className="cs-single_post">
                 <p style={{color:'black'}}>We are proud to be the 1st collection to offer Assets As Attributes. This is what makes your Pet battle-able, (pokemon style).
-                  <br/><br/>Rather than static attributes like Speed: 100, Power: 400, Defense: 1,000 etc, Your Hyena Pet's attributes are tradeable tokens.<br/><br/>
+                  <br/><br/>Rather than static attributes like Speed: 100, Power: 400, Defense: 1,000 etc, Your Hyena Pet&apos;s attributes are tradeable tokens.<br/><br/>
                   Attribute tokens will be available for trade soon on pancakeswap.<br/><br/>
                 </p>
                 <h4 className="text-center" style={{fontFamily: 'Comfortaa'}}>Attributes</h4>
@@ -555,7 +555,7 @@ const Start = () => {
         {isNoPetsModalOpen &&  
             <Modal onClose={handleCloseNoPetsModal} title="You Have No Pets">
               <div className="cs-single_post">
-                <p className='text-cetnter' style={{color:'black'}}>You haven't minted any pets, mint one to get started
+                <p className='text-cetnter' style={{color:'black'}}>You haven&apos;t minted any pets, mint one to get started
                 </p>
 
               </div>

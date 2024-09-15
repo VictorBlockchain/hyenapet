@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import styles from "@/styles/Home.module.css";
+import Link from 'next/link'
 
 const Footer = () => {
     
@@ -22,8 +23,8 @@ const Footer = () => {
             <div className="cs-footer_bottom_in">
             <div className="cs-copyright">Copyright 2022 African Hyena Pets</div>
             <ul className="cs-footer_menu">
-            <li><a href="/privacy">Privacy Policy</a></li>
-            <li><a href="/terms">Term &amp; Condition</a></li>
+            <li><Link href="/privacy">Privacy Policy</Link></li>
+            <li><Link href="/terms">Term &amp; Condition</Link></li>
             </ul>
             </div>
             </div>

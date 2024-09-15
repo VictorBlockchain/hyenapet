@@ -5,6 +5,8 @@ import { useAccount } from 'wagmi'
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 import { PlugIcon } from './Icons';
+import Link from 'next/link'
+
 const CONTRACT_ADDRESS = '0xAF73c709e66fe339beE5608477F9e7A589acAEC5';
 const contractABI = require('../abi/ahp.json');
 
@@ -44,11 +46,11 @@ const Nav = ({}) => {
             <header>
                 <nav className="navbar navbar-expand-lg">
                     <div className="container-fluid">
-                    <a className="navbar-brand p-2" href="/">
+                    <Link className="navbar-brand p-2" href="/">
                         {/* If you have a logo, you can include it like this:
                         <img src="/path-to-your-logo.svg" alt="Logo" height="32" /> */}
                         <span className="animated-text">Hyena Pets</span>
-                    </a>
+                    </Link>
                     {address && (
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" onClick={toggle} style={{ border: '1px solid green' }}>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="#00ff00"> {/* Green color */}
