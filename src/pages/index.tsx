@@ -9,9 +9,7 @@ const LoadingComponent = () => {
 	  </div>
 	);
   };
-const Start = dynamic(() => import('../components/Start'), {
-	loading: LoadingComponent
-  });
+const Start = dynamic(() => import('../components/Start'), { ssr: false });
 export default function Home() {
 
 	return (
