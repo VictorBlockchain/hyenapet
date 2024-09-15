@@ -9,15 +9,15 @@ const LoadingComponent = () => {
 	  </div>
 	);
   };
-const Start = dynamic(() => import('../components/Start'), { ssr: false });
-export default function Home() {
-
+const Start = dynamic(() => import('../components/Start'), {
+	loading: LoadingComponent
+  });
+  const Home = () => {
 	return (
-		<>
-			<Layout >
-				<Start   />
-			</Layout>		
-		</>
-	
+	  <Layout>
+		<Start />
+	  </Layout>
 	);
-}
+  };
+  
+  export default Home;
