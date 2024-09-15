@@ -8,6 +8,7 @@ import { useMintTo } from '../hooks/useMintTo';
 import { useMintPrice } from '../hooks/useMintPrice';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import Link from 'next/link'
 
 const Carousel = () => {
   const { address, isConnecting, isDisconnected } = useAccount()
@@ -120,7 +121,7 @@ const Carousel = () => {
               <i className="fab fa-bolt"><small>SPEED:</small></i>
                   3K
                   </span>
-                  <a href="explore-details.html" className="cs-card_thumb cs-zoom_effect">
+                  <Link href="explore-details.html" className="cs-card_thumb cs-zoom_effect">
                   <Image
                       src="/img/pets/76.png"
                       alt="Image"
@@ -129,7 +130,7 @@ const Carousel = () => {
                       height='600'
                       onLoad={handleImageLoad}
                   />
-                  </a>
+                  </Link>
                   <div className="cs-card_info" style={{marginTop: '9px'}}>
                   
                   <h3 className="cs-card_title"><a href="explore-details.html">Hyena Pets</a></h3>
@@ -154,7 +155,7 @@ const Carousel = () => {
                   <i className="fab fa-bolt"><small>POWER:</small></i>
                       15K
                       </span>
-                      <a href="explore-details.html" className="cs-card_thumb cs-zoom_effect">
+                      <Link href="explore-details.html" className="cs-card_thumb cs-zoom_effect">
                       <Image
                           src="/img/pets/28.png"
                           alt="Image"
@@ -163,7 +164,7 @@ const Carousel = () => {
                           height='200'
                           onLoad={handleImageLoad}
                       />
-                      </a>
+                      </Link>
                       <div className="cs-card_info" style={{marginTop: '9px'}}>
                       <h3 className="cs-card_title"><a href="explore-details.html">Hyena Pets</a></h3>
                       <div className="cs-card_price">#: <b className="cs-primary_color">28</b></div>
@@ -187,7 +188,7 @@ const Carousel = () => {
               <i className="fab fa-bolt"><small>FLIGHT:</small></i>
                   30K
                   </span>
-                  <a href="explore-details.html" className="cs-card_thumb cs-zoom_effect">
+                  <Link href="explore-details.html" className="cs-card_thumb cs-zoom_effect">
                   <Image
                       src="/img/pets/107.png"
                       alt="Image"
@@ -196,7 +197,7 @@ const Carousel = () => {
                       height='200'
                       onLoad={handleImageLoad}
                   />
-                  </a>
+                  </Link>
                   <div className="cs-card_info" style={{marginTop: '9px'}}>
                   
                   <h3 className="cs-card_title"><a href="explore-details.html">Hyena Pets</a></h3>
@@ -221,7 +222,7 @@ const Carousel = () => {
               <i className="fab fa-bolt"><small>ATTACK:</small></i>
                   35K
                   </span>
-                  <a href="explore-details.html" className="cs-card_thumb cs-zoom_effect">
+                  <Link href="explore-details.html" className="cs-card_thumb cs-zoom_effect">
                   <Image
                       src="/img/pets/435.png"
                       alt="Image"
@@ -230,7 +231,7 @@ const Carousel = () => {
                       height='200'
                       onLoad={handleImageLoad}
                   />
-                  </a>
+                  </Link>
                   <div className="cs-card_info" style={{marginTop: '9px'}}>
                   
                   <h3 className="cs-card_title"><a href="explore-details.html">Hyena Pets</a></h3>
