@@ -46,28 +46,28 @@ createWeb3Modal({ wagmiConfig, projectId, chains });
 export default function App({ Component, pageProps }: AppProps) {
 	const [ready, setReady] = useState(false);
 	
-	useEffect(() => {
-		const script = document.createElement('script');
-		script.src = 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js';
-		script.crossOrigin = 'anonymous';
-		script.async = true;
-		document.body.appendChild(script);
+	// useEffect(() => {
+	// 	const script = document.createElement('script');
+	// 	script.src = 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js';
+	// 	script.crossOrigin = 'anonymous';
+	// 	script.async = true;
+	// 	document.body.appendChild(script);
 	  
-		return () => {
-		  document.body.removeChild(script);
-		};
-	  }, []);
+	// 	return () => {
+	// 	  document.body.removeChild(script);
+	// 	};
+	//   }, []);
 	  
-	useEffect(() => {
-		setReady(true);
-	}, []);
-	return (
-		<>
-			{ready ? (
-				<WagmiConfig config={wagmiConfig}>
-					<Component {...pageProps} />
-				</WagmiConfig>
-			) : null}
-		</>
-	);
+	// useEffect(() => {
+	// 	setReady(true);
+	// }, []);
+	// return (
+	// 	<>
+	// 		{ready ? (
+	// 			<WagmiConfig config={wagmiConfig}>
+	// 				<Component {...pageProps} />
+	// 			</WagmiConfig>
+	// 		) : null}
+	// 	</>
+	// );
 }
