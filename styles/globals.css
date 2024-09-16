@@ -38,15 +38,6 @@ body,
 	min-height: 100% !important;
 	height: 100%;
 }
-
-body {
-	min-height: 100%;
-	font-family: var(--font-base);
-	background-color: var(--color-bg);
-	color: var(--color-grey-100);
-	/* background-image: url("/pattern.png"); */
-}
-
 pre,
 code {
 	font-family: var(--font-mono);
