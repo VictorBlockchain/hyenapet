@@ -20,7 +20,7 @@ const Footer = () => {
             <div className="container">
             <div className="cs-footer_separetor"></div>
             <div className="cs-footer_bottom_in">
-            <div className="cs-copyright">Copyright 2022 African Hyena Pets</div>
+            <div className="cs-copyright">Copyright 2022 Hyena Pets</div>
             <ul className="cs-footer_menu">
             <li><Link href="/privacy">Privacy Policy</Link></li>
             <li><Link href="/terms">Term &amp; Condition</Link></li>
