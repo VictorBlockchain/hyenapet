@@ -3511,7 +3511,7 @@ kbd {
 }
 
 .slick-dotted {
-  cursor: url(../../public/img/drag.png) 16 9, ew-resize !important;
+  cursor: url(../public/img/drag.png) 16 9, ew-resize !important;
 }
 
 .cs-hidden {
