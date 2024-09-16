@@ -3,6 +3,7 @@ require('dotenv').config();
 const nextConfig = {
   pageExtensions: ['tsx'],
   reactStrictMode: false,
+  distDir: 'public', // Specify the output directory
   webpack: (config, { buildId, dev, isServer }) => {
     // This allows the app to refer to files through our symlink
     if (!isServer) {
