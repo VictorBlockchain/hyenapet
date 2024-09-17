@@ -27,7 +27,6 @@ const chains = [
 	// fantom,
 ];
 
-// 1. Get projectID at https://cloud.walletconnect.com
 
 const projectId = process.env.NEXT_PUBLIC_PROJECT_ID || "";
 
